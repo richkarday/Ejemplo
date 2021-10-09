@@ -1,4 +1,3 @@
-require('./config/config')
 const express = require('express');
 const app = express()
 const mongoose = require('mongoose');
@@ -18,6 +17,6 @@ mongoose.connect(process.env.URLDB, {
         console.log("Base de datos conectada exitosamente")
 }); 
 
-app.listen(process.env.PORT, () => {
-    console.log("Escuchando por el puerto", process.env.PORT);
+app.listen(3000 () => {
+    console.log("Escuchando por el puerto", 3000;
 }) 
